@@ -1,4 +1,4 @@
-'''img = []
+img = []
 for i in range(10):
     new = []
     for j in range(10):
@@ -11,12 +11,4 @@ for i in img:
 for i in img:
     print("\n")
     for j in i:
-        print(i[j],end="\t")'''
-
-
-def flip(a,b):
-    tmp = a; a = b; b = tmp
-a = 1
-b = 3
-flip(a,b)
-print(a,b)
+        print(i[j],end="\t")
